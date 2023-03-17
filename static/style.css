@@ -1,0 +1,51 @@
+:root {
+    --dark_blue: #194bb5;
+    --light_blue: #009de4;
+}
+
+body {
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s;
+    background-color: black;
+}
+header {
+    margin-bottom: 50px;
+}
+a {
+    color: var(--dark_blue);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--light_blue);
+    text-decoration: underline;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#nameTitle {
+    background-image: linear-gradient(var(--light_blue), var(--dark_blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    display: inline;
+}
+
+#lightDarkToggle {
+    float: right;
+    margin-top: 10px;
+}
+#lightDarkToggle:hover {
+    cursor: pointer;
+}
+#lightDarkToggleIcon {
+    width: 30px;
+}

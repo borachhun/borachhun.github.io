@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <title>Borachhun You</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./static/style.css">
+        <script src="./static/script.js"></script>
+    </head>
+
+    <body onload="init()">
+        <header>
+            <h1 id="nameTitle"></h1>
+            <span id="lightDarkToggle" onclick="lightDarkToggle()">
+                <img id="lightDarkToggleIcon">
+            </span>
+        </header>
+        <section>
+            <h2>Some of my works</h2>
+            <h3>Flutter apps</h3>
+            <ul>
+                <li>
+                    <a href="./app/drawml">DrawML</a>: a basic application that uses a machine learning model to predict drawn digits
+                </li>
+                <li>
+                    <a href="./app/tictactoe">TicTacToe</a>: a simple 2-player Tic-tac-toe game
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>
