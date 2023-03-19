@@ -5,7 +5,8 @@
 
 body {
     padding: 15px;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'JetBrains Mono', monospace;
     transition: all 0.3s;
     background-color: black;
 }
@@ -34,7 +35,6 @@ a:hover {
     background-image: linear-gradient(var(--light_blue), var(--dark_blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Inter', sans-serif;
     font-size: 40px;
     display: inline;
 }
