@@ -13,6 +13,9 @@ body {
 header {
     margin-bottom: 50px;
 }
+section {
+    margin-bottom: 50px;
+}
 a {
     color: var(--dark_blue);
     text-decoration: none;
